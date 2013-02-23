@@ -11,3 +11,4 @@ Todo:
 2. Add stat collection (query-able by data/tags)
 3. URL validation for shorten, but skippable
 4. Optional data/tags to associate with shortened link
+5. Add subdomain support
