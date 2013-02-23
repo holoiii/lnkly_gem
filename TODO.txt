@@ -1,0 +1,13 @@
+Todo:
+
+1. Add optional configuration options:
+  Lnkly.configure do |config|
+    config.username = "user"
+    config.password = "pass"
+  end
+
+  Should default to ENV['LNKLY_USERNAME'], ENV['LNKLY_PASSWORD']
+
+2. Add stat collection (query-able by data/tags)
+3. URL validation for shorten, but skippable
+4. Optional data/tags to associate with shortened link
